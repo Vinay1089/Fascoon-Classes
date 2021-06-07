@@ -1,0 +1,38 @@
+body{
+            background-image: url(https://wallpaperaccess.com/full/5085931.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .header1{
+            text-align:left;
+            font-family:'Times New Roman', Times, serif;
+            color:rgb(79, 206, 178);
+            font-size:60px;
+            margin-top:08%;
+            margin-left:53%;
+        }
+        .header2{
+            text-align:left;
+            font-family:'Times New Roman', Times, serif;
+            color:rgb(79, 206, 178);
+            font-size:15px;
+            margin-top:0%;
+            margin-left:55%;
+        }
+        .introduction{
+            text-align:left;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            color:rgb(155, 155, 155);
+            font-size:20px;
+            margin-left:40%;
+            margin-top:03%;
+        }
+        .text{
+            text-align:left;
+            font-family:palatino;
+            font-size:20px;
+            margin-left:45%;  
+            margin-top:02%;
+            margin-right:06%;          
+            color:rgb(233, 233, 233);
+        }

@@ -10,8 +10,8 @@ p{
     font-size:20px;
     text-align:left;
     font-style:initial;
-    border:3px dotted black;
-    background-color: blueviolet;
+    border:3px dotted white;
+    background-color:black;
     padding:3%;
 }
 div{
@@ -20,7 +20,7 @@ div{
         margin-top: 1%;
         color:yellow;
         font-size:20px;
-        font-style:unset;
+        font-style:inherit;
         margin:5%;
         background-color:cadetblue;
 }

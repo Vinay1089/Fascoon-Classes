@@ -1,0 +1,27 @@
+body{
+    background-image: url('https://thumbor.forbes.com/thumbor/1500x0/smart/filters:format(jpeg)/https%3A%2F%2Fimages.forbes.com%2FBillionaires2021-ListHeader-2%2FBillionaires2021-Desktop-LanderHeader-v2.png');
+    background-repeat: no repeate;
+    background-size:cover;
+    
+}
+p{
+    margin-top:5%;
+    color:cornsilk;
+    font-size:20px;
+    text-align:left;
+    font-style:initial;
+    border:3px dotted black;
+    background-color: blueviolet;
+    padding:3%;
+}
+div{
+        border: 2px dashed black;
+        padding: 2%;
+        margin-top: 1%;
+        color:yellow;
+        font-size:20px;
+        font-style:unset;
+        margin:5%;
+        background-color:cadetblue;
+}
+

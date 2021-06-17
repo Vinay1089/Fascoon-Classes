@@ -26,10 +26,7 @@ a{
     text-decoration:none; 
 }
 a:hover{
-    color:blue;
-}
-a:visited{
-    color:white;
+    color:black;
 }
 a:active{
     color:greenyellow;

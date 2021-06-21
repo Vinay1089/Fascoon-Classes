@@ -9,28 +9,28 @@ h1{
     font-size: 50px;
     font-style:initial;
     color:orange;
-    margin-top:2%;
     padding:3%; 
 }
 p{
     text-align: left;
-    font-size: 20px;
+    font-size: 22px;
     font-style:italic;
     color:black;
     padding-top:3%;
-    margin-left:5%;
+    margin-left:1%;
     margin-right:2%;
 }
 a{
     color:blue;
-    text-decoration:none; 
+    text-decoration: none;
 }
 a:hover{
-    color:black;
+    color:grey;
 }
 a:active{
     color:greenyellow;
 }
+
 img{
     float:left;
 }

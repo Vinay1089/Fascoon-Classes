@@ -1,0 +1,28 @@
+table,tr,th{
+    border-bottom:1% solid pink;
+    border-collapse: collapse;
+    margin:3%;
+    margin-left:10%;
+    padding:1%
+}
+table{
+      width:80%;
+      height:70%;
+}
+th{
+   background-color: black;
+   padding:2%;
+   text-align: center;
+   font-size:30px;
+   color:white;
+}
+td{
+   background-color:darkslategray;
+   padding:1%;
+   text-align: center;
+   font-size:25px;
+   color:darkgray
+}
+tr:hover{
+         background-color:darkturquoise;
+}

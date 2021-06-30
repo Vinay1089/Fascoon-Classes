@@ -1,0 +1,45 @@
+*{
+    margin:0;
+    padding:0;
+    }
+    body{
+    background:lightgrey;
+    font-family:Quicksand;
+    background-image:url("http://photos.com.ng/photos/wp-content/uploads/Photographers-Awarded-bySony-World-Photography-Awards-1024x682.jpg");
+    background-size:cover;
+    background-repeat:none;
+    }
+    #logo{
+        float:left;
+        margin-right:3.5%;
+    }
+  .nav{
+      background-color:black;
+      margin:0;
+      padding:0;
+      text-align:right;
+  }
+  .one, li{
+    display:inline-flex;
+    margin:8.3px;
+    padding:3.7px;
+    margin-right:20px;
+  }
+  li,a{
+      text-transform: capitalize;
+      text-decoration: none;
+      font-size:18px;
+      color:white;
+  }
+li,a:hover{
+color:rgb(44, 109, 109);
+}
+p{
+    text-align:right;
+    margin-top: 28%;
+    margin-left:15%;
+    margin-right:10%;
+    font-size:22px;
+    color:whitesmoke
+}
+

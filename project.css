@@ -14,7 +14,7 @@
         margin-right:3.5%;
     }
   .nav{
-      position:fixed;
+      position:sticky;
       background-color:black;
       margin:0;
       padding:0;

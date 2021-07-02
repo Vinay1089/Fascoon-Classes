@@ -1,0 +1,39 @@
+<html>
+    <head>
+            <meta charset="UTF-8">
+                <meta name="description" content="HTML, CSS, JavaScript">
+                    <meta name="keywords" content="HTML, CSS">
+                        <meta name="author" content="V.vinay">
+                            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Inner HTML Method Example</title>
+        <style>
+            body{
+                background-color:darkgray;
+            }
+            #class{
+                margin-top:20px;
+                padding:5px;
+                text-align:center;
+                color:rgb(40, 245, 211);
+                background-color: black;
+                text-transform: capitalize;
+            }
+            #theory{
+                margin-left:15px;
+                padding:5px;
+                text-align:left;
+                color:rgb(9, 54, 56);
+                font-size:20px;
+                font-style:italic;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="class"></h1>
+        <p id="theory"></p>
+    </body>
+    <script>
+        document.getElementById("class").innerHTML="Theory for InnerHTML method:";
+        document.getElementById("theory").innerHTML="This property is used to set or return the HTML content inside an element. Using innerHTML, you can change HTML content inside element tags as you like, but not the tags themselves.";
+    </script>
+</html>

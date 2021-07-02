@@ -14,12 +14,12 @@
         margin-right:3.5%;
     }
   .nav{
-      background-color:black;
+      background-color:rgb(65, 65, 65);
       position: fixed;
       width:100%;
       top:0;
       margin:0;
-      padding:0;
+      padding:2px;
       text-align:right;
   }
   .one, li{
@@ -35,13 +35,12 @@
       color:white;
   }
 li,a:hover{
-color:rgb(44, 109, 109);
+color:rgb(5, 63, 97);
 }
 p{
     text-align:right;
-    margin-top: 40%;
-    margin-right:67%;
-    margin-left:2%;
+    margin-top: 30%;
+    margin-right:68%;
     font-size:22px;
-    color:whitesmoke;
+    color:rgb(255, 255, 255);
 }

@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <title>Comment Tags</title>
+  </head>
+  <body>
+    <h2 id="hello"></h2>
+    <p id="chello"></p>
+  </body>
+  <script>
+    //To create a single line comment in JavaScript, you place two slashes "//":
+    document.write("<h2>Single line comment tag //</h2>");
+    document.write(
+      "<p>To create a single line comment in JavaScript, you place two slashes (//) in front of the code or text you wish to have the JavaScript interpreter ignore. When you place these two slashes, all text to the right of them will be ignored, until the next line.</p>");
+  </script>
+  <script>
+    /*
+      1. This is a personal website.
+      2. Please don't do any changes on the code.
+      3. Please check the JavaScript on the website code.
+    */
+    document.getElementById("hello").innerHTML = "Multi-line Comments(/* */)";
+    document.getElementById("chello").innerHTML ="JavaScript multiline comment has the same purpose as a single-line comment. JavaScript comment block starts with two symbols: . To end the comment, use these symbols again. Everything between these symbols will be treated as a comment in JavaScript";
+  </script>
+</html>

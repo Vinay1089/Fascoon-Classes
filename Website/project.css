@@ -3,7 +3,7 @@
     padding:0%;
     font-family: 'Inter', sans-serif;
   }
-  /*opening page CSS start*/
+  /*opening page 1 CSS start*/
   .opening{
       min-height: 96vh;
       width: 100%;
@@ -98,13 +98,124 @@ a.opening5:hover{
 .opening6 a{
     color:white;
 }
-/*opening page CSS end */
-/*
-
-
-
-
-
-
-
+/*opening page 1 CSS end */
+/*opening page 3 CSS start*/
+#tag{
+    min-height: 30vh;
+    margin-top:50px;
+    background-color: rgb(40, 115, 253);
+    display:inline-flex;
+    column-count:3;
+    column-gap: 100px;
+    width: 100%;
+}
+#tag1{
+    padding:10px;
+    margin:50px;
+}
+#head{
+    text-align: left;
+    font-size: 50px;
+    color:white;
+    margin-bottom:25px;
+    font-weight: 700; 
+}
+#para1{
+    text-align: left;
+    font-size: 25px;
+    color:white;
+    margin-bottom:25px;
+    font-weight: 600; 
+}
+#para2{
+    text-align: left;
+    font-size: 18px;
+    color:white;
+    margin-bottom:25px;
+    font-weight: 400; 
+}
+/*opening page 3 CSS end*/
+/*opening page 4 CSS start*/
+.about{
+    min-height: 80vh;
+    margin-top:50px;
+    display:inline-flex;
+    column-count:2;
+    column-gap: 50px;
+    width: 100%;
+    background-color: snow;
+}
+.about1{
+    margin:30px;
+    padding-left:100px;
+}
+.about1 img{
+    margin:5px;
+    padding-left:100px;
+    width:600px;
+    height:600px;
+    border-image:round;
+}
+.coon{
+    margin-top:100px;
+    margin-right:50px;
+    padding-right:150px;
+}
+.coon1{
+    margin-bottom: 50px;
+    color:rgb(3, 68, 187);
+    font-size:20px;
+    text-align: left;
+    letter-spacing: 2px;
+}
+.coon2{
+    font-weight: 400;
+    font-size: 17px;
+    margin-bottom:23px;
+    color:rgb(138, 137, 137);
+    
+}
+.coon3{
+    text-align:left;
+    font-weight: 400;
+    font-size: 17px;
+    color:rgb(138, 137, 137);
+}
+.icon{
+    padding-left:-20px;
+    position:relative;
+    display:run-in;
+    margin-left:-32px;
+    margin-right:15px;
+    color:rgb(40, 115, 253);
+}
+/*opening page 4 CSS end*/
+/*opening page 5 CSS start*/
+#choice{
+    min-height: 80vh;
+    margin-top:50px;
+    position:relative;
+    column-count:3;
+    column-gap: 40px;
+    width: 100%;
+    background-color:rgb(247, 242, 242);
+}
+#choice1{
+    margin:20px;
+    padding:20px;
+}
+#choice2{
+    padding-left:25px;
+    margin-left:25px;
+    text-align: left;
+    font-size:30px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color:rgb(3, 68, 187);
+}
+.flow{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    grid-auto-rows: auto auto auto auto;
+}
 

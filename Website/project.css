@@ -58,6 +58,7 @@ a:hover{
 }
 a.thing:hover{
     color:white;
+    box-shadow:0px 0px 5px 3px rgb(128, 129, 129);
 }
 .opening1{
     margin-left:200px;
@@ -80,6 +81,11 @@ a.thing:hover{
     width:75%;
     padding:10px;
     border-radius:5px;
+}
+#opening4{
+    color:rgb(70, 195, 245);
+    font-weight: 800;
+    font-size: 30px;
 }
 .opening5 a{
     padding-right:30px;
@@ -344,4 +350,7 @@ a.opening5:hover{
 #flex5:hover{
     background-color:rgb(75, 87, 104);
     border:2px groove whitesmoke;
+    box-shadow:0px 0px 5px 3px rgb(128, 129, 129);
 }
+/*opening page 5 CSS end*/
+/*opening page 6 CSS start*/

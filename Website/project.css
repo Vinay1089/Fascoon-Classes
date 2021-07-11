@@ -18,19 +18,20 @@ img{
     margin-right:10%;
     padding:20px;
 }
-.bar{
+.menubar{
     background-color:rgba(248, 248, 248);
     height:100px;
     width:100%;
     position:fixed;
     top:0%;
 }
-ul,li{
+.menu #menu1{
     display:inline-block;  
-    padding: 5px;
+    padding-top: 25px;
+    padding-right:10px;
     margin: 10px;
 }
-li, a{
+#menu1, a{
     text-align:center;
     padding-top:10px;
     font-size: 16px;
@@ -87,11 +88,17 @@ a.thing:hover{
     font-weight: 800;
     font-size: 30px;
 }
+.list, .opening6{
+    list-style: none;
+    display: inline;
+    margin-right:15px;
+}
 .opening5 a{
     padding-right:30px;
     padding-left:30px;
     padding-top:13px;
     padding-bottom:15px;
+    display: inline;
     font-size:16px;
     color:white;
     font-weight: 500;
@@ -103,6 +110,7 @@ a.opening5:hover{
 }
 .opening6 a{
     color:white;
+    display: inline;
 }
 /*opening page 1 CSS end */
 /*opening page 3 CSS start*/
@@ -184,15 +192,9 @@ a.opening5:hover{
 .coon3{
     text-align:left;
     font-weight: 400;
+    padding:15px;
     font-size: 17px;
     color:rgb(138, 137, 137);
-}
-.icon{
-    padding-left:-20px;
-    position:relative;
-    margin-left:-32px;
-    margin-right:15px;
-    color:rgb(40, 115, 253);
 }
 /*opening page 4 CSS end*/
 /*opening page 5 CSS start*/

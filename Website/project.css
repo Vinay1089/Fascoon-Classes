@@ -310,7 +310,7 @@ a.opening5:hover{
     grid-row-end: 3;
 }
 #flex3{
-    background-color: tomato;
+    background-color: rgb(240, 83, 56);
     width: 97%;
     height:8%;
     color:white;
@@ -359,3 +359,235 @@ a.opening5:hover{
 }
 /*opening page 5 CSS end*/
 /*opening page 6 CSS start*/
+.parentmain6{
+    max-width: 200vh;
+    margin-top: 50px;
+    width: 100%;
+    display: grid;
+    grid-template-columns:repeat(4, auto);
+    grid-template-rows:100px 180px 180px 100px;
+    grid-column-gap: 50px;
+    grid-row-gap: 35px;
+    background-color: rgb(255, 251, 246);
+    box-sizing: content-box;
+}
+#childmain1{
+    text-align: left;
+    padding-top:30px;
+    font-size: 30px;
+    letter-spacing: 1px;
+    color:rgb(3, 68, 187);
+    font-weight: 700;
+}
+.child1 img{
+    float:left;
+}
+#child1:hover{
+    color:rgb(240, 83, 56);
+}
+#child1{
+    text-align: left;
+    padding-left:90px;
+    font-weight: 700;
+    font-size: 23px;
+    color:rgb(3, 68, 187);
+}
+.child2 img{
+    float:left;
+}
+#child2:hover{
+    color:rgb(240, 83, 56);
+}
+#child2{
+    text-align: left;
+    font-weight: 700;
+    font-size: 23px;
+    padding-left:90px;
+    color:rgb(3, 68, 187);
+}
+.child3 img{
+    float:left;
+}
+#child3:hover{
+    color:rgb(240, 83, 56);
+}
+#child3{
+    text-align: left;
+    font-weight: 700;
+    font-size: 23px;
+    padding-left:90px;
+    color:rgb(3, 68, 187);
+}
+.child4 img{
+    float:left;
+}
+#child4:hover{
+    color:rgb(240, 83, 56);
+}
+#child4{
+    text-align: left;
+    padding-left:90px;
+    font-weight: 700;
+    font-size: 23px;
+    color:rgb(3, 68, 187);
+}
+.childmain1{
+    grid-column:2/3;
+    grid-row: 1/2;
+}
+.child1{
+    border: 1px solid rgb(185, 184, 184);
+    grid-column: 2/3;
+    grid-row: 2/3;
+}
+.child2{
+    border: 1px solid rgb(185, 184, 184);
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.child3{
+    border: 1px solid rgb(185, 184, 184);
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.child4{
+    border: 1px solid rgb(185, 184, 184);
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+/*opening page 6 CSS end*/
+/*opening page 7 CSS start*/
+.parent7{
+    width: 100%;
+    height:680px;
+    margin-top:50px;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    grid-gap:-50px;
+    justify-content: center;
+    background-color: rgb(245, 241, 241);
+}
+.key1{
+    margin:30px;
+    margin-left:50px;
+    padding:30px;
+    grid-column: 1/2;
+}
+.key6{
+    margin:30px;
+    padding:30px;
+    margin-right:100px;
+    grid-column: 2/3;
+}
+#key{
+    margin:15px;
+    padding-left:68px;
+}
+#key{
+    text-align:left;
+    margin-bottom:50px;
+    font-size:30px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    color:rgb(3, 68, 187);
+}
+#key2{
+    background-color: rgb(65, 163, 255);
+    width:auto;
+    font-size: 20px;
+    color:white;
+    text-align: left;
+    padding:13px;
+    padding-left:30px;
+    margin-left:75px;
+}
+.key2{
+    background-color: rgb(65, 163, 255);
+    width: auto;
+    font-size: 20px;
+    color:rgb(241, 239, 239);
+    text-align: left;
+    padding:13px;
+    padding-left:30px;
+    margin-left:-25px;
+}
+#key4{
+    padding:20px;
+    margin-left:75px;
+    font-weight: 600;
+    font-size: 17px;
+    color:rgb(58, 55, 55);
+    background-color: white;
+    border-bottom:1px groove lightgrey;
+}
+.key4{
+    padding:20px;
+    font-weight: 600;
+    margin-left:-25px;
+    font-size: 17px;
+    color:rgb(58, 55, 55);
+    background-color: white;
+    border-bottom:1px groove lightgrey;
+}
+#key3{
+    padding:20px;
+    margin-left:75px;
+    font-weight: 600;
+    font-size: 23px;
+    color:rgb(7, 51, 133);
+    background-color: white;
+    border-bottom:1px groove lightgrey;
+}
+.key3{
+    padding:20px;
+    font-weight: 600;
+    margin-left:-25px;
+    font-size: 23px;
+    color:rgb(7, 51, 133);
+    background-color: white;
+    border-bottom:1px groove lightgrey;
+}
+.opt2{
+    font-size: 13px;
+    font-weight: 600;
+    color:rgb(58, 55, 55);
+}
+#opt2{
+    font-size: 13px;
+    font-weight: 600;
+    color:rgb(58, 55, 55);
+}
+#opt1{
+    font-size: 23px;
+    color:rgb(7, 51, 133);
+}
+.opt1{
+    font-size: 23px;
+    color:rgb(7, 51, 133);
+}
+s{
+    color:red;
+}
+.key8{
+    padding:10px;
+    padding-right:20px;
+    margin-top:100px;
+    margin-left:200px;
+    margin-bottom:-100px;
+    padding-left:20px;
+    border:1px groove black;
+    background-color:limegreen;
+    color:white;
+    font-weight: 600;
+}
+#key8{
+    padding:10px;
+    padding-right:20px;
+    padding-left:20px;
+    margin-bottom:-10px;
+    margin-left:300px;
+    border:1px groove black;
+    background-color:limegreen;
+    color:white;
+    font-weight: 600;
+}

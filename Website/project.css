@@ -380,21 +380,23 @@ a.opening5:hover{
     color:rgb(3, 68, 187);
     font-weight: 700;
 }
-.child1 img{
+.child1 .chill{
     float:left;
+    margin-left:5px;
 }
 #child1:hover{
     color:rgb(240, 83, 56);
 }
 #child1{
     text-align: left;
-    padding-left:90px;
+    padding-left:25px;
     font-weight: 700;
     font-size: 23px;
     color:rgb(3, 68, 187);
 }
-.child2 img{
+.child2 .chill{
     float:left;
+    margin-left:5px;
 }
 #child2:hover{
     color:rgb(240, 83, 56);
@@ -403,11 +405,12 @@ a.opening5:hover{
     text-align: left;
     font-weight: 700;
     font-size: 23px;
-    padding-left:90px;
+    padding-left:25px;
     color:rgb(3, 68, 187);
 }
-.child3 img{
+.child3 .chill{
     float:left;
+    margin-left:5px;
 }
 #child3:hover{
     color:rgb(240, 83, 56);
@@ -416,18 +419,19 @@ a.opening5:hover{
     text-align: left;
     font-weight: 700;
     font-size: 23px;
-    padding-left:90px;
+    padding-left:25px;
     color:rgb(3, 68, 187);
 }
-.child4 img{
+.child4 .chill{
     float:left;
+    margin-left:5px;
 }
 #child4:hover{
     color:rgb(240, 83, 56);
 }
 #child4{
     text-align: left;
-    padding-left:90px;
+    padding-left:25px;
     font-weight: 700;
     font-size: 23px;
     color:rgb(3, 68, 187);
@@ -706,4 +710,91 @@ s{
     width:auto;
     height:300px;
     display: inline;
+}
+/*opening page 10 CSS end*/
+/*opening page 11 CSS start*/
+.note{
+    width:auto;
+    height:138px;
+    background-color: rgb(253, 253, 253);
+    margin:2% 10% 2% 10%;
+}
+.note1{
+    background-color:rgb(7, 51, 133);
+    margin-top:50px;
+    padding:60px 150px 60px 100px; 
+    border-radius: 100px;
+}
+#note1{
+    display: inline;
+    font-size: 40px;
+    font-weight: 600;
+    padding-right:75px;
+    text-align: left;
+    color:white;
+}
+.joe{
+    display: inline;
+}
+#lis{
+    text-align: left;
+    margin-left:75px;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    padding:10px 18px 15px 18px;
+    border-radius: 50px;
+    background-color: rgb(255, 166, 2);
+}
+#lis:hover{
+    background-color: rgb(61, 61, 61);
+}
+#lis1{
+    text-align: left;
+    margin-left:50px;
+    color:white;
+    font-size: 18px;
+    font-weight: 600;
+    padding:10px 18px 15px 18px;
+    border-radius: 50px;
+    background-color: rgb(97, 14, 165);
+}
+#lis1:hover{
+    background-color: rgb(61, 61, 61);
+}
+/*opening page 11 CSS end*/
+/*opening page 12 CSS start*/
+.man1{
+    margin-top:0;
+    padding:150px 50px 50px 50px;
+    width:auto;
+    height:400px;
+    background-image:url("footer.png");
+    background-position: center;
+}
+#man1{
+    margin-left:150px;
+    padding:10px;
+}
+.grand{
+    display:grid;
+    grid-template-columns:repeat(3,200px);
+    grid-template-rows:repeat(2, auto);
+}
+#last1 a{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 200%;
+    opacity: 0.8;
+}
+#last2 a{
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 200%;
+    opacity: 0.8;
+}
+#last3 a{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 200%;
 }

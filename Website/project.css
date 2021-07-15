@@ -114,6 +114,66 @@ a.opening5:hover{
     display: inline;
 }
 /*opening page 1 CSS end */
+/*opening page 2 CSS start*/
+.fascoon7{
+    width: auto;
+    height:400px;
+    margin:75px 100px 75px 100px;
+    display: grid;
+    grid-template-columns:650px 650px;
+    grid-column-gap: 60px;
+}
+#fascoon1 #student1{
+    float:right;
+    margin-right:10px;
+    border-radius: 100px;
+}
+#fascoon1 #student2{
+    float:right;
+    padding:0;
+    margin-top:80px;
+    margin-right:110px;
+    border-radius: 100px;
+}
+#fascoon1 #student3{
+    float:right;
+    padding:0px;
+    margin-right:170px;
+    margin-top:0px;
+    border-radius: 100px;
+}
+#fascoon1 #student4{
+    float:right;
+    padding:0;
+    margin-top:125px;
+    border-radius: 100px;
+}
+#fascoon1 #student5{
+    float:right;
+    border-radius: 100px;
+    padding:0;
+    margin-right:20px;
+    margin-top:-50px;
+}
+.fascoon3{
+    margin-left:200px;
+    color:rgb(11, 118, 240);
+    font-size:100px;
+    font-weight: 700;
+    padding:5px 10px 40px 10px;
+}
+.fascoon4{
+    font-size:17px;
+    font-weight: 500;
+    line-height: 150%;
+    color:rgb(97, 96, 96);
+}
+#fascoon4{
+    font-size: 20px;
+    font-weight: 600;
+    color:rgb(11, 118, 240);
+}
+/*opening page 2 CSS end*/
 /*opening page 3 CSS start*/
 #tag{
     min-height: 30vh;
@@ -905,3 +965,4 @@ footer{
 .footer2:hover{
     color:rgb(1, 1, 128);
 }
+/*opening page 12 CSS start*/

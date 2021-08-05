@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Date Consept</title>
+        <style>
+            h1{
+                text-align: center;
+                padding:20px;
+                color:red;
+            }
+            #date{
+                text-align:center;
+                padding:20px;
+                color:rgb(53, 53, 80);
+                font-size:50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Types of methods on JS Dates</h1>
+        <h3 id="date"></h3>
+    </body>
+    <script>
+        //Method 2
+        var d=new Date();
+        var date= d.getDate();
+        var day= d.getDay();
+        var month= d.getMonth()+1;
+        var year= d.getFullYear();
+
+        document.getElementById("date").innerHTML = date + "/" +month + "/" +year;
+    </script>
+</html>

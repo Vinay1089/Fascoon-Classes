@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FOREACH LOOP</title>
+        <style>
+            #thing{ 
+                color:rgb(49, 49, 99);
+                text-align: center;
+                padding:100px;
+                line-height: 50px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 id="thing"></h1>
+    </body>
+    <script>
+        var things = ["Table", "Chair", "Pen", "Book", "Box"];
+        things.forEach(needs);
+        function needs(item, index)
+        {
+            document.getElementById("thing").innerHTML += item + "<br />";
+        }
+    </script>
+</html>

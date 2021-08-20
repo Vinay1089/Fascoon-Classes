@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+#logo{
+    margin-top:30px;
+    width:500px;
+    height:auto;
+    position: relative;
+}
+.header-text{ 
+  color:grey;
+  font-size:15px;
+  word-spacing:1px;
+}
+#header-text{
+    text-decoration:none;
+    color:black;
+    font-size:15px;
+}
+#navlist{
+    background-color: rgba(147, 203, 218, 0.788);
+    border-radius: 5px;
+}
+#navlist .nav-items .nav-link{
+    color:rgb(66, 68, 66);
+    font-size:15px;
+}
+#navlist .nav-items .nav-link:hover{
+    background-color: white;
+    color:rgb(235, 78, 78);
+}
+#navlist2 .nav-items .nav-link{
+    color:rgb(66, 68, 66);
+    font-size:14px;
+    border-bottom: 3px double black;
+    border-width: 120%;
+}
+#navlist2 .nav-items .nav-link:hover{
+    background-color: white;
+    color:rgb(235, 78, 78);
+}
+/*Market dropdown*/
+.main-list {
+    display:flex;
+    flex-wrap: wrap;
+    position: relative;
+    width: auto;
+    height: auto;
+    padding:10px 100px;
+    align-content: space-around;
+    background-color: #fefefe;
+}
+.list-1{
+    justify-content: flex-start;
+    padding:15px;
+    flex-direction: column;
+}
+.header > a{
+    font-size:16px;
+    font-weight: 500;
+    color:rgb(39, 39, 39);
+    flex-direction: column;
+    word-spacing: 2px;
+    text-decoration: none;
+}
+.header > a:hover{
+    text-decoration: underline;
+    transition:0.5s;
+    color:rgb(39, 39, 39);
+}
+.sub-text > a{
+    padding:5px 20px;
+    font-size:14px;
+    font-weight: 400;
+    color:rgb(110, 107, 107);
+    flex-direction: column;
+    display: block;
+    word-spacing: 2px;
+    text-decoration: none;
+}
+.sub-text > a:hover{
+    text-decoration: underline;
+    transition:0.5s;
+    color:rgb(110, 107, 107);
+}
+.list-2{
+    justify-content: flex-end;
+    padding:15px;
+    flex-direction: column;
+}

@@ -22,6 +22,9 @@ body{
     color:black;
     font-size:15px;
 }
+.navlist1{
+    margin-top: 25px;
+}
 #navlist{
     background-color: rgba(147, 203, 218, 0.788);
     border-radius: 5px;
@@ -130,6 +133,7 @@ body{
 .title>a:hover{
     text-decoration: underline;
     color:whitesmoke;
+    transition: 0.5s ease-in-out;
 }
 .main-text{
     display:flex;
@@ -163,6 +167,7 @@ body{
     cursor: pointer;
     text-decoration: underline;
     color: darkcyan;
+    transition: 0.5s ease-in-out;
 }
 /*article 1 end*/
 /*article 2 start*/
@@ -183,6 +188,7 @@ body{
 }
 .heading1:hover{
     color:tomato;
+    transition: 0.5s ease-in-out;
 }
 .text1{
     text-align: left;
@@ -204,4 +210,85 @@ body{
     color:rgb(184, 89, 73);
     cursor: pointer;
     text-decoration:underline;
+}
+/*article 2 end*/
+/*article 3 start*/
+.title1{
+    margin-top:80px;
+    padding-top:100px;
+    position: absolute;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.title1>a{
+    color:white;
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.title1>a:hover{
+    text-decoration: underline;
+    color:whitesmoke;
+    transition: 0.5s ease-in-out;
+}
+.article2text{
+    margin:5px;
+    padding:5px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+    cursor:pointer;
+}
+.article2text:hover{
+    color:tomato;
+    transition: 0.5s;
+}
+.items1>.far{
+    font-size: 15px;
+    color:red;
+}
+.items>.fas{
+    padding-right:5px;
+    color:red;
+    font-size: 15px;
+}
+/*article 3 end*/
+/*article 4 start*/
+.article3text{
+    padding:5px 0px 10px 0px;
+    margin:5px 0px 10px 0px;
+    color:rgb(110, 95, 95);
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 1px;
+    text-align: center;
+    line-height: 20px;
+    border-bottom:2px dotted rgb(145, 124, 124);
+}
+.article3text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkcyan;
+}
+.items>.far{
+    font-size: 15px;
+    color:red;
+}
+.title2{
+    margin-top:80px;
+    padding-top:100px;
+    position: absolute;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.title2>a{
+    color:rgb(41, 41, 41);
+    font-size: 23px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.title2>a:hover{
+    text-decoration: underline;
+    color:rgb(12, 11, 11);
+    transition: 0.5s ease-in-out;
 }

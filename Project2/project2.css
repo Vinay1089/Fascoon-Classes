@@ -47,62 +47,16 @@ body{
     background-color: white;
     color:rgb(235, 78, 78);
 }
-/*Market dropdown*/
-.main-list {
-    display:flex;
-    flex-wrap: wrap;
-    position: fixed;
-    width: auto;
-    height: auto;
-    padding:10px 100px;
-    align-content: space-around;
-    background-color: #fefefe;
-}
-.list-1{
-    justify-content: flex-start;
-    padding:15px;
-    flex-direction: column;
-}
-.header > a{
-    font-size:16px;
-    font-weight: 500;
-    color:rgb(39, 39, 39);
-    flex-direction: column;
-    word-spacing: 2px;
-    text-decoration: none;
-}
-.header > a:hover{
-    text-decoration: underline;
-    transition:0.5s;
-    color:rgb(39, 39, 39);
-}
-.sub-text > a{
-    padding:5px 20px;
-    font-size:14px;
-    font-weight: 400;
-    color:rgb(110, 107, 107);
-    flex-direction: column;
-    display: block;
-    word-spacing: 2px;
-    text-decoration: none;
-}
-.sub-text > a:hover{
-    text-decoration: underline;
-    transition:0.5s;
-    color:rgb(110, 107, 107);
-}
-.list-2{
-    justify-content: flex-end;
-    padding:15px;
-    flex-direction: column;
-}
-
-/*main page 1 start*/
+/*main page 1 end*/
 /*article 1 start*/
 
 .article1{
     margin:10px;
     padding-top:30px;
+}
+.main-text{
+    position: relative;
+    display:flex;
 }
 .main-head{
     display:flex;
@@ -117,6 +71,10 @@ body{
     height:300px;
     border-radius: 5px;
 }
+.main-head>img:hover{
+    transform: scale(1.2);
+    transition: 2s ease-in-out;
+}
 .title{
     margin-top:110px;
     padding-top:110px;
@@ -126,9 +84,10 @@ body{
 }
 .title>a{
     color:white;
-    font-size: 23px;
+    font-size: 22px;
     text-decoration: none;
     font-weight: 600;
+    overflow: hidden;
 }
 .title>a:hover{
     text-decoration: underline;
@@ -207,7 +166,7 @@ body{
     text-decoration:underline;
 }
 .text1:hover{
-    color:rgb(184, 89, 73);
+    color:rgb(255, 9, 9);
     cursor: pointer;
     text-decoration:underline;
 }
@@ -215,16 +174,17 @@ body{
 /*article 3 start*/
 .title1{
     margin-top:80px;
-    padding-top:100px;
+    padding-top:80px;
     position: absolute;
     flex-wrap: wrap;
     text-align: center;
 }
 .title1>a{
     color:white;
-    font-size: 23px;
+    font-size: 22px;
     text-decoration: none;
     font-weight: 600;
+    overflow: hidden;
 }
 .title1>a:hover{
     text-decoration: underline;
@@ -276,19 +236,116 @@ body{
 }
 .title2{
     margin-top:80px;
-    padding-top:100px;
+    padding-top:80px;
     position: absolute;
     flex-wrap: wrap;
     text-align: center;
 }
 .title2>a{
     color:rgb(41, 41, 41);
-    font-size: 23px;
+    font-size: 22px;
     text-decoration: none;
     font-weight: 600;
+    overflow: hidden;
 }
 .title2>a:hover{
     text-decoration: underline;
     color:rgb(12, 11, 11);
     transition: 0.5s ease-in-out;
+}
+/*article 4 end*/
+/*article 5 start*/
+.article4text{
+    padding:5px 0px 10px 0px;
+    margin:5px 0px 10px 0px;
+    color:rgb(110, 95, 95);
+    font-size: 18px;
+    font-weight: 400;
+    word-spacing: 1px;
+    text-align: center;
+    line-height: 20px;
+    border-bottom:2px dotted rgb(145, 124, 124);
+}
+.article4text:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: darkcyan;
+}
+.items>.far{
+    font-size: 15px;
+    color:red;
+}
+hr{
+    margin:0px 0px 25px 0px;
+    padding:2px 0px;
+    width:auto;
+    border-radius: 5px;
+    color:black
+}
+.external-links{
+    margin: 20px 0px;
+    text-align: right;
+}
+.external-links>a{
+    color:rgb(34, 33, 33);
+    font-size: 18px;
+    font-weight: 500;
+    word-spacing: 1px;
+    line-height: 20px;
+    text-decoration: none;
+}
+.external-links>a:hover{
+    color:tomato;
+    transition: 0.5s;
+    text-decoration: underline;
+}
+/*article 5 end*/
+/*side-article 1 start*/
+.side-article{
+    display:flex;
+    margin:10px 2px;
+    border-bottom: 1px dotted grey;
+}
+.side-article>img{
+    width:50px;
+    height:50px;
+    border-radius: 3px;
+    margin:5px 20px;
+}
+.side-article>img:hover{
+    transform: scale(1.2);
+    transition: 0.5s ease-in-out;
+}
+.side-article>p{
+    align-self: center;
+    font-weight: 400;
+    padding-top:5px;
+    word-spacing: 1px;
+    color:rgb(104, 92, 40);
+    line-height: 20px;
+}
+.side-article>img,p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color:black;
+}
+.article6_head{
+    width:125px;
+    margin:10px 25px;
+    padding:5px 6px;
+    font-weight: 700;
+    border-radius: 10px;
+    text-decoration:wavy;
+}
+.article6_head>.fal{
+    padding-left:8px;
+    color:tomato;
+    opacity: 0.5;
+    font-size:17px;
+}
+.article6_head:hover{
+    color:tomato;
+    transition: 1s;
+    cursor: pointer;
+    text-decoration: underline;
 }

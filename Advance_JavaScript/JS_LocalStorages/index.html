@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Loacl Storage Files.</title>
+        <style>
+            #name{
+                text-align:center;
+                font-size: 3rem;
+                padding:15px;
+                margin-top:200px;
+                color:green;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h3 id="name"></h3>
+
+    </body>
+    <script>
+        let Firstname;
+        let middlename;
+        let Lastname;
+
+        localStorage.setItem("Firstname","Vinay");
+        localStorage.setItem("Middlename","Kumar");
+        localStorage.setItem("Lastname","Vennu");
+
+        Firstname= localStorage.getItem("Firstname");
+        Middlename= localStorage.getItem("Middlename");
+        Lastname= localStorage.getItem("Lastname");
+
+        document.getElementById("name").innerHTML="My fullname is: "+Firstname+" "+Middlename+" "+Lastname;
+    </script>
+</html>

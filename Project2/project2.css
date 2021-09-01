@@ -504,6 +504,100 @@ body{
     font-size: 15px;
 }
 /*article 3 end*/
+/*aritcle 3 side article 1 start*/
+.page4{
+    padding:10px;
+    margin-top:30px;
+}
+.podcast{
+    display: block;
+    padding:10px;
+}
+.podcast>h5{
+    padding:10px 10px;
+    font-weight: 600;
+}
+.podcast>h5:hover{
+    color:tomato;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.podcast>p{
+    align-self: center;
+    font-weight: 400;
+    padding:10px 5px 8px 5px;
+    margin-top:5px;
+    word-spacing: 1px;
+    color:rgb(66, 61, 38);
+    line-height: 20px;
+    border-bottom: 1px dotted grey;
+}
+.podcast>p:hover{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.podcast>p>i{
+    float:right;
+    color:red;
+    border:1px solid red;
+    padding:5px;
+    border-radius: 25px;
+    font-size: 11px;
+    font-weight: 600;
+}
+.podcast>h5>.fas{
+    color:tomato;
+    opacity: 0.5;
+}
+/*aritcle 3 side article 1 end*/
+/*aritcle 3 side article 2 start*/
+.right-article{
+    margin-top:40px;
+    display: flex;
+    padding:5px 0px;
+    justify-content:space-between;
+    border-bottom:1px dotted gray;
+}
+.right-article>img{
+    border-radius: 5px;
+    margin-right:5px;
+    width:100px;
+    height:100px;
+}
+.right-article>img:hover{
+    transform: scale(1.1);
+    transition: 0.5s ease-in-out;
+}
+.right-article>p{
+    align-self: center;
+    padding:10px 0px;
+    font-weight: 600;
+}
+.right-article>p:hover{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
+.right-text{
+    display: block;
+    margin-top:25px;
+}
+.right-text>p{
+    padding:10px 0px;
+    font-weight: 400;
+    color:rgb(66, 61, 38);
+    border-bottom:1px dotted gray;
+}
+.right-text>p:hover{
+    color:black;
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.5s ease-in-out;
+}
 /*article 4 start*/
 .article3text{
     padding:5px 0px 10px 0px;

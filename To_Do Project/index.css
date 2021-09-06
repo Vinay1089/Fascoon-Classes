@@ -206,10 +206,7 @@ header{
 }
 
 @media screen and (max-width: 780px){
-    
-    body{
-        background-color: rgb(98, 185, 177);
-    }
+
     header{
         margin:3% 0% 2% 0%;
         text-align: center;

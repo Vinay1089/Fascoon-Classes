@@ -5,9 +5,14 @@ import AppBody from './Components/AppBody';
 import AppFooter from './Components/AppFooter';
 
 function App() {
+  let name ={
+
+    "username":"Vinay",
+    "location":"Hyderabad"
+  }
   return (
     <div className="App">
-        <Appheader />
+        <Appheader username={name.username} location={name.location} />
         <AppBody />
         <AppFooter />
     </div>

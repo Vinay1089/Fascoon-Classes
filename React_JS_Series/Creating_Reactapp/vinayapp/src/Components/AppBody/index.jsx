@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import "./index.css"
 export default class vennus extends Component {
     constructor(props){
         super(props);
@@ -29,14 +30,14 @@ export default class vennus extends Component {
     }
     render() {
         return (
-            <div>
-                <input name="firstname" type="text" onChange={this.handleInputChange} value={this.state.firstname} placeholder="First Name"/><br />
-                <input name="lastname" type="text" onChange={this.handleInputChange} value={this.state.lastname} placeholder="Last Name"/><br />
-                <button onClick={this.onOutput}>Submit</button>
+            <div class="main-div">
+                <input class="username" name="firstname" type="text" onChange={this.handleInputChange} value={this.state.firstname} placeholder="First Name"/><br />
+                <input class="username" name="lastname" type="text" onChange={this.handleInputChange} value={this.state.lastname} placeholder="Last Name"/><br />
+                <button class="submit"onClick={this.onOutput}>Submit</button>
                 <br /><br />
-                <h3>{this.state.firstname} {this.state.lastname}</h3>
+                <h3 class="output">{this.state.firstname} {this.state.lastname}</h3>
                 <br /><br />
-                <h3>{this.state.output}</h3>
+                <h3 class="output">{this.state.output}</h3>
             </div>
         )
     }

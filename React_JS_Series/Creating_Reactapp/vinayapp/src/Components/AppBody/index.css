@@ -1,0 +1,33 @@
+.main-div{
+    padding:10px;
+    margin:10px;
+    background-color:black;
+    position: relative;
+}
+.username{
+    padding:15px;
+    width:50%;
+    margin:5px;
+    color:black;
+    background-color: gray;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.submit{
+    padding:15px;
+    width:50%;
+    margin:5px;
+    color:gray;
+    background-color: rgb(43, 39, 39);
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 18px;
+}
+.output{
+    font-size: 18px;
+    color:whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

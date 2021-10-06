@@ -11,8 +11,7 @@ export default function PlayerContainer(props) {
             <Link className="back" to='/players'>Go Back</Link>
             <h2>Player Details</h2>
             <h3>{props.match.params.name}</h3>
-            <h3>{props.match.params.jursey}</h3>
-            <img src={require('../../Assets/Images/'+props.match.params.image)}></img>
+            <img src={require('../../Assets/Images/'+ props.match.params.image).default}></img>
         </div>
     )
 }

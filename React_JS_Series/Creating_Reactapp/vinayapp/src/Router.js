@@ -15,37 +15,31 @@ export class Router extends Component{
       players:[
         {
           "id":1,
-          "jursey":7,
           "name":"MS_Dhoni",
           "image":"MSD.jpg"
         },
         {
           "id":2,
-          "jursey":18,
           "name":"Virat_Kohli",
           "image":"Virat.jpg"
         },
         {
           "id":3,
-          "jursey":45,
           "name":"Rohit_Sharma",
           "image":"Rohit.jpg"
         },
         {
           "id":4,
-          "jursey":93,
           "name":"Jasprit_Bumrah",
           "image":"Bumrah.jpg"
         },
         {
           "id":5,
-          "jursey":8,
           "name":"Ravindra_Jadeja",
           "image":"Jadeja.jpg"
         },
         {
           "id":6,
-          "jursey":15,
           "name":"Bhuvneshwar_Kumar",
           "image":"Buvi.jpg"
         }

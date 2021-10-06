@@ -6,7 +6,7 @@ export default function players(props) {
     const renderPlayers = () =>{
 
         return props.players.map((player) =>(
-            <li className="list-1"><Link className="list-2" to={"/players" + player.id +"/" + player.name + "/"+ player.image}>{player.name}</Link></li>
+            <li className="list-1"><Link className="list-2" to={"/players/" + player.id +"/" + player.name + "/"+ player.image}>{player.name}</Link></li>
         ))
 
 

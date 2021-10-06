@@ -1,0 +1,17 @@
+.container{
+    padding:10px;
+    margin:5px 10px;
+}
+.back{
+    padding:5px 14px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-decoration: none;
+    color:black;
+    font-weight: 500;
+}
+.back:hover{
+    color:white;
+    background-color: black;
+    transition: 0.5s ease-in-out;
+}

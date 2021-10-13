@@ -1,0 +1,45 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "name": "Vinay"
+    },
+    {
+      "id": 2,
+      "name": "Sandeep"
+    },
+    {
+      "id": 3,
+      "name": "Shobha"
+    },
+    [
+      {
+        "name": "Suresh"
+      }
+    ],
+    [
+      {
+        "id": 4,
+        "name": "Suresh"
+      }
+    ],
+    [
+      {
+        "id": 4,
+        "name": "Suresh"
+      }
+    ],
+    {
+      "user": "Manisher.s",
+      "id": 7
+    },
+    {
+      "user": "Manisher.s",
+      "id": 8
+    },
+    {
+      "user": "Eshwar",
+      "id": 9
+    }
+  ]
+}

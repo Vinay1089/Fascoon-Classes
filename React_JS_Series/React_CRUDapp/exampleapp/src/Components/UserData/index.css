@@ -1,21 +1,27 @@
 .list{
     position: absolute;
-    top:5%;
-    left:20%;
+    top:20%;
+    left:42%;
     padding:10px;
 }
-.list, input{
+.enter{
 
-    padding:5px;
+    padding:10px;
     margin:5px;
-    font-size: 18px;
-    border-radius: 10px;
-    outline: none;
+    border:none;
+    width:60%;
+    background-color: rgb(231, 226, 226);
+    font-size: 20px;
+    border-radius: 25px;
+    outline:none;
     
 }
-.list, button{
-    padding:5px;
+.btn{
+    padding:10px;
     margin: 5px;
-    font-size: 18px;
-    border-radius: 7px;
+    background-color: black;
+    color:white;
+    font-size: 20px;
+    border:none;
+    border-radius: 20px;
 }

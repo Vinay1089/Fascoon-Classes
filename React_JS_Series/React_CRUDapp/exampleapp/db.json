@@ -1,45 +1,28 @@
 {
   "user": [
     {
-      "id": 1,
-      "name": "Vinay"
+      "name": "Vinay V",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Sandeep"
+      "name": "Sandeep V",
+      "id": 3
     },
     {
-      "id": 3,
-      "name": "Shobha"
+      "name": "Eshwar J",
+      "id": 4
     },
-    [
-      {
-        "name": "Suresh"
-      }
-    ],
-    [
-      {
-        "id": 4,
-        "name": "Suresh"
-      }
-    ],
-    [
-      {
-        "id": 4,
-        "name": "Suresh"
-      }
-    ],
     {
-      "user": "Manisher.s",
+      "name": "Suresh J",
+      "id": 5
+    },
+    {
+      "name": "Maniher S",
+      "id": 6
+    },
+    {
+      "name": "Naresh O",
       "id": 7
-    },
-    {
-      "user": "Manisher.s",
-      "id": 8
-    },
-    {
-      "user": "Eshwar",
-      "id": 9
     }
   ]
 }

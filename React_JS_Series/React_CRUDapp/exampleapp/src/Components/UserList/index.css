@@ -1,6 +1,45 @@
 .main{
     position: absolute;
-    top:5%;
-    left:25%;
+    top:20%;
+    left:42%;
 
+}
+.list-main{
+    padding:10px;
+    display:flex;
+    justify-content: space-between;
+}
+.List-items{
+    list-style-type: none;
+    font-size: 25px;
+    margin:5px;
+    padding:5px;
+    font-weight: 600;
+    color:rgb(43, 41, 41);
+    cursor: pointer;
+}
+.edit{
+    padding:13px;
+    margin:5px;
+    text-decoration: none;
+    color:rgb(13, 39, 187);
+    font-size: 18px;
+    font-weight: 500;
+}
+.edit:hover{
+    color:rgb(13, 97, 13);
+}
+.button{
+    padding:5px 15px;
+    margin:5px;
+    border:none;
+    font-size: 18px;
+    background-color: rgb(75, 73, 73);
+    color:honeydew;
+    border-radius: 20px;
+}
+.button:hover{
+    color:white;
+    background-color: black;
+    transition: 0.5s;
 }

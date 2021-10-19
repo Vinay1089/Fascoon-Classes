@@ -1,28 +1,24 @@
 {
   "user": [
     {
-      "name": "Vinay V",
+      "name": "Vennu Vinay",
       "id": 1
     },
     {
-      "name": "Sandeep V",
+      "name": "Jogini Suresh",
+      "id": 2
+    },
+    {
+      "name": "Vennu Sandeep",
       "id": 3
     },
     {
-      "name": "Eshwar J",
+      "name": "Jogini Eshwar",
       "id": 4
     },
     {
-      "name": "Suresh J",
+      "name": "Jogini Nivas",
       "id": 5
-    },
-    {
-      "name": "Maniher S",
-      "id": 6
-    },
-    {
-      "name": "Naresh O",
-      "id": 7
     }
   ]
 }

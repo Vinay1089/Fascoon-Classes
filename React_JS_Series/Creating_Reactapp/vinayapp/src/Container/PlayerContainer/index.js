@@ -9,8 +9,10 @@ export default function PlayerContainer(props) {
     return(
         <div className="container">
             <Link className="back" to='/players'>Go Back</Link>
+            {/* {DisplayPlayers()} */}
             <h2>Player Details</h2>
-            <h3>{props.match.params.name}</h3>
+            <h3>Name: {props.match.params.name}</h3>
+            <h3>Jersey Number: {props.match.params.jersey}</h3>
             <img src={require('../../Assets/Images/'+ props.match.params.image).default}></img>
         </div>
     )

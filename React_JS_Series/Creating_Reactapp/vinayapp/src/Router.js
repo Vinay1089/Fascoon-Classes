@@ -15,31 +15,37 @@ export class Router extends Component{
       players:[
         {
           "id":1,
+          "jersey":7,
           "name":"MS_Dhoni",
           "image":"MSD.jpg"
         },
         {
           "id":2,
+          "jersey":18,
           "name":"Virat_Kohli",
           "image":"Virat.jpg"
         },
         {
           "id":3,
+          "jersey":45,
           "name":"Rohit_Sharma",
           "image":"Rohit.jpg"
         },
         {
           "id":4,
+          "jersey":93,
           "name":"Jasprit_Bumrah",
           "image":"Bumrah.jpg"
         },
         {
           "id":5,
+          "jersey":8,
           "name":"Ravindra_Jadeja",
           "image":"Jadeja.jpg"
         },
         {
           "id":6,
+          "jersey":15,
           "name":"Bhuvneshwar_Kumar",
           "image":"Buvi.jpg"
         }
@@ -56,7 +62,7 @@ export class Router extends Component{
         <Route exact path='/Contact' component={contact}/>
         <Route exact path='/Home' component={home}/>
         <Route exact path='/players' render= {(props) => <Players {...props} players={this.list.players} /> } />
-        <Route exact path='/players/:id/:name/:image' render={PlayerContainer} />
+        <Route exact path='/players/:id/:name/:jersey/:image' render={PlayerContainer} />
        </Switch>
       </div>
     );

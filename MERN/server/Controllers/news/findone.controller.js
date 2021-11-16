@@ -4,7 +4,7 @@ exports.findone=(req,res)=>{
     const News =db.News;
 
     const id=res.params.id;
-    News.findByID(id)
+    News.findById(id)
     .then(data=>{
 
         if(!data){

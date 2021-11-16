@@ -1,5 +1,3 @@
-const { News } = require('../../Models');
-
 exports.add = (req, res)=>{
 
     const db= require ('../../Models');

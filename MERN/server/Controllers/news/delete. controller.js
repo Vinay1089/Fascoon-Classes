@@ -5,7 +5,7 @@ exports.delete = (req, res)=>{
 
     const id = res.params.id;
     //Create this function to delete the data on mongodb.
-    News.findByIDAndRemove(id)
+    News.findByIdAndRemove(id)
 
     .then(data =>{
 

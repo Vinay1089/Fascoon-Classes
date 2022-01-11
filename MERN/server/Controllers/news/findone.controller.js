@@ -3,7 +3,7 @@ exports.findone=(req,res)=>{
     const db= require('../../Models')
     const News =db.News;
 
-    const id=res.params.id;
+    const id=req.params.id;
     News.findById(id)
     .then(data=>{
 

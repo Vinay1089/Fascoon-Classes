@@ -5,8 +5,8 @@ module.exports = mongoose =>{
         {
             title: String,
             news: String,
-            author:String,
-            published:String
+            author: String,
+            published: String
         },
         {
             timestamps:true
@@ -15,7 +15,7 @@ module.exports = mongoose =>{
 
     //convert _id to id
 
-    schema.method('toJSON', function(){
+    schema.method("toJSON", function(){
 
         const{ __v,_id, ...object}= this. toObject()
         object.id = _id

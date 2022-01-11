@@ -12,7 +12,6 @@ exports.add = (req, res)=>{
     }
 
     const news = new News({
-
         title: req.body.title,
         news: req.body.news,
         author:req.body.author,
@@ -21,7 +20,7 @@ exports.add = (req, res)=>{
     news.save(news)
     .then(data=>{
 
-        res.send(data)
+         res.send(data)
     })
     .catch(err=>{
 

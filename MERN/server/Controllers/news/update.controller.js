@@ -3,16 +3,16 @@ exports.update=(req,res)=>{
     const db= require('../../Models')
     const News =db.News;
 
-    const id=res.params.id;
+    const id=req.params.id;
 
-    if(!res.data){
+    if(!req.body){
 
         res.status(500).send({
 
             message: 'Data to update cannot be Empty!'
         })
     }
-    News.findByIDAndUpdate(id,res.body,{
+    News.findByIdAndUpdate(id,req.body,{
         useFindAndModify:true
     })
     .then(data=>{
